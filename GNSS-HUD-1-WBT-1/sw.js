@@ -4,7 +4,7 @@ const cacheName = 'cache-v1';
 // List the files to precache
 const precacheResources = [
             '/index.html',
-            '/sw.js'
+            '/sw.js',
             '/js/BluetoothTerminal.js',
             '/js/companion.js',
             '/js/main.js',
