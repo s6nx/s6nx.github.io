@@ -3,13 +3,12 @@ const cacheName = 'cache-v1';
 
 // List the files to precache
 const precacheResources = [
-            '/index.html',
-            '/sw.js',
-            '/js/BluetoothTerminal.js',
-            '/js/companion.js',
-            '/js/main.js',
-            '/css/normalize.css',
-            '/css/styles.css',
+            'index.html',
+            'js/BluetoothTerminal.js',
+            'js/companion.js',
+            'js/main.js',
+            'css/normalize.css',
+            'css/styles.css',
             ];
 /*
             '/browserconfig.xml',
