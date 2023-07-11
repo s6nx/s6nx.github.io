@@ -33,6 +33,7 @@ self.addEventListener('fetch', (event) => {
       }
       else {
         console.log('sw.js: fetch:', event.request.url);
+        event.waitUntil(caches.open(cacheName).then((cache) => cache.add(event.request.url)));
         return fetch(event.request);
       }
     }),
