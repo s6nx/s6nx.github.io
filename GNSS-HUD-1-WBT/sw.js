@@ -25,10 +25,15 @@ self.addEventListener('activate', (event) => {
 });
 
 self.addEventListener('fetch', (event) => {
-  console.log('sw.js: fetch:', event.request.url);
   event.respondWith(caches.match(event.request).then((cachedResponse) => {
-      if (cachedResponse) return cachedResponse;
-      else return fetch(event.request);
+      if (cachedResponse) {
+        console.log('sw.js: cache:', event.request.url);
+        return cachedResponse;
+      }
+      else {
+        console.log('sw.js: fetch:', event.request.url);
+        return fetch(event.request);
+      }
     }),
   );
 });
