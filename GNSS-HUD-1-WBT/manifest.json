@@ -1,0 +1,20 @@
+{
+  "dir": "ltr",
+  "lang": "en",
+  "display": "standalone",
+  "orientation": "any",
+  "start_url": "./index.html",
+  "scope": ".",
+  "name": "GNSS-HUD-1-WBT",
+  "short_name": "GNSS-HUD-1-WBT",
+  "description": "PWA for serial communication with BLE device",
+  "theme_color": "#2196f3",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "android-chrome-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ]
+}
