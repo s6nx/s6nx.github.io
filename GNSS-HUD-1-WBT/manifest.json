@@ -1,0 +1,13 @@
+{
+  "dir": "ltr",
+  "lang": "en",
+  "display": "standalone",
+  "orientation": "any",
+  "start_url": "./",
+  "scope": "./",
+  "name": "GNSS-HUD-1-WBT",
+  "short_name": "GNSS-HUD-1-WBT",
+  "description": "Progressive Web Application for serial communication with your own Bluetooth Low Energy (Smart) devices",
+  "theme_color": "#2196f3",
+  "background_color": "#ffffff"
+}
