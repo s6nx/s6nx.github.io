@@ -13,6 +13,7 @@ const precacheResources = [
             'favicon.ico',
             'favicon-16x16.png',
             'favicon-32x32.png',
+            'android-chrome-144x144.png',
             'browserconfig.xml',
             ];
 
