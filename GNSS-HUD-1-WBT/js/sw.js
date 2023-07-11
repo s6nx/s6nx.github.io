@@ -2,18 +2,17 @@
 const cacheName = 'cache-v1';
 
 const precacheResources = [
-            '/',
-            'index.html',
-            'manifest.json',
-            'js/sw.js',
-            'js/BluetoothTerminal.js',
-            'js/main.js',
-            'css/normalize.css',
-            'css/styles.css',
-            'img/favicon.ico',
-            'img/favicon-16x16.png',
-            'img/favicon-32x32.png',
-            'img/android-chrome-144x144.png',
+            'main.js',
+            'BluetoothTerminal.js',
+            'sw.js',
+            '../index.html',
+            '../manifest.json',
+            '../css/normalize.css',
+            '../css/styles.css',
+            '../img/favicon.ico',
+            '../img/favicon-16x16.png',
+            '../img/favicon-32x32.png',
+            '../img/android-chrome-144x144.png',
             ];
 
 self.addEventListener('install', (event) => {
