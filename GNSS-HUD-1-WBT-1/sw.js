@@ -3,8 +3,13 @@ const cacheName = 'cache-v1';
 
 // List the files to precache
 const precacheResources = [
+            'index.html',
+            'manifest.json',
             'browserconfig.xml',
-            'cli.js',
+            'sw.js'
+            'js/BluetoothTerminal.js',
+            'js/companion.js',
+            'js/main.js',
             'css/normalize.css',
             'css/styles.css',
             'icons/android-chrome-144x144.png',
@@ -25,12 +30,10 @@ const precacheResources = [
             'icons/mstile-310x310.png',
             'icons/mstile-70x70.png',
             'icons/safari-pinned-tab.svg',
-            'index.html',
-            'js/BluetoothTerminal.js',
-            'js/companion.js',
-            'js/main.js',
-            //'js/sw-toolbox.js',
-            'manifest.json',
+            ];
+/*
+            'cli.js',
+            'js/sw-toolbox.js',
             'package.json',
             'package-lock.json',
             'scss/_buttons.scss',
@@ -40,8 +43,7 @@ const precacheResources = [
             'scss/_terminal.scss',
             'scss/_toolbar.scss',
             'scss/styles.scss',
-            'sw.js'
-            ];
+*/
 
 // When the service worker is installing, open the cache and add the precache resources to it
 self.addEventListener('install', (event) => {
