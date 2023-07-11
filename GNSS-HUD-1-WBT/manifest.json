@@ -3,7 +3,7 @@
   "lang": "en",
   "display": "standalone",
   "orientation": "any",
-  "start_url": "./",
+  "start_url": "./index.html",
   "scope": ".",
   "name": "GNSS-HUD-1-WBT",
   "short_name": "GNSS-HUD-1-WBT",
