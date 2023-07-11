@@ -7,7 +7,19 @@
   "scope": "/",
   "name": "GNSS-HUD-1-WBT",
   "short_name": "GNSS-HUD-1-WBT",
-  "description": "Progressive Web Application for serial communication with your own Bluetooth Low Energy (Smart) devices",
+  "description": "PWA for serial communication with BLE device",
   "theme_color": "#2196f3",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ]
 }
