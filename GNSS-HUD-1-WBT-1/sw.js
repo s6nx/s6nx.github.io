@@ -7,6 +7,7 @@ const precacheResources = [
             'manifest.json',
             'browserconfig.xml',
             'sw.js',
+            '/',
             'js/BluetoothTerminal.js',
             'js/companion.js',
             'js/main.js',
